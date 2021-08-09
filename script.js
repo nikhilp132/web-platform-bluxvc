@@ -14,7 +14,7 @@ function typeWriter() {
     updatedString += str.charAt(i);
     i++;
     el2.html(updatedString);
-    setTimeout(typeWriter, 100);
+    setTimeout(typeWriter, 130);
   }
 }
 setTimeout(typeWriter, 300);
