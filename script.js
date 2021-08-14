@@ -21,3 +21,7 @@ setTimeout(typeWriter, 300);
 
 console.log(el1);
 console.log(el2);
+
+$('#slideBtn').bind('click', function() {
+  $('.container').slideToggle('fast');
+});
