@@ -18,3 +18,31 @@ body {
     opacity: 0;
   }
 }
+
+.container {
+  height: 400px;
+  width: 400px;
+  background-color: aquamarine;
+  position: absolute;
+}
+
+.box1 {
+  height: 300px;
+  width: 300px;
+  background-color: chartreuse;
+  position: absolute;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  position: absolute;
+}
+
+.box3 {
+  height: 100px;
+  width: 100px;
+  background-color: darkseagreen;
+  position: absolute;
+}
