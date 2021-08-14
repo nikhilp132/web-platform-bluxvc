@@ -23,7 +23,7 @@ body {
   height: 400px;
   width: 400px;
   background-color: aquamarine;
-  position: absolute;
+  position: relative;
 }
 
 .box1 {
@@ -31,13 +31,15 @@ body {
   width: 300px;
   background-color: chartreuse;
   position: absolute;
+  top: 50px;
 }
 
 .box2 {
   height: 100px;
   width: 100px;
   background-color: tomato;
-  position: absolute;
+  position: relative;
+  top: 50px;
 }
 
 .box3 {
@@ -45,4 +47,5 @@ body {
   width: 100px;
   background-color: darkseagreen;
   position: absolute;
+  /* top: 0px; */
 }
